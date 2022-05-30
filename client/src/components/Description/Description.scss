@@ -1,0 +1,50 @@
+.description-background {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.description-text {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-family: "Supermercado One", cursive;
+    padding: 40px 75px;
+    width: 90%;
+}
+
+.description-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-second-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    padding: 0px 100px;
+}
+
+.description-start-button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    border: 2.5px solid #e6007a;
+    font-family: "Oswald", sans-serif;
+    font-family: "Supermercado One", cursive;
+}
+
+.description-buy-button {
+    width: 150px;
+    height: 40px;
+    background-color: #e6007a;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    border: 2.5px solid white;
+    font-family: "Oswald", sans-serif;
+    font-family: "Supermercado One", cursive;
+}

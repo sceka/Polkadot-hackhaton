@@ -1,0 +1,28 @@
+.container {
+    background-color: #e6007a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    padding: 30px 35px;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    color: white;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
+.navbar-about,
+.navbar-explore,
+.navbar-create,
+.navbar-connect {
+    cursor: pointer;
+}
